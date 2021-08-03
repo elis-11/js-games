@@ -1,11 +1,25 @@
 .game {
-    width: 600px;
-    height: 200px;
-    border-bottom: 1px solid rgb(219, 108, 108);
-    margin: auto;
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid rgb(219, 108, 108);
+  margin: auto;
+  background-color: #f2f2f2;
 }
 #dino {
-    width: 50px;
-    height: 50px;
-    background-image: url(img/dino.png);
+  width: 50px;
+  height: 50px;
+  background-image: url(img/dino.png);
+  background-size: 50px 50px;
+  position: relative;
+  top: 145px;
+}
+#cactus {
+  width: 20px;
+  height: 20px;
+  background-image: url(img/cactus.png);
+  background-size: 20px 40px;
+  position: relative;
+  top: 125px;
+  left: 580px;
+  animation: cactusMov 1s infinite linear;
 }
