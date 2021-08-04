@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.container{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+.color{
+    color:#49abe9;
+}
