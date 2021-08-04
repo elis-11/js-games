@@ -11,7 +11,7 @@ body{
     align-items: center;
     background-color: #fff;
 }
-.container{
+.container h2{
     background-color: #222;
     padding: 20px;
     border-radius: 10px;
