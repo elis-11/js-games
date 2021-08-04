@@ -2,7 +2,7 @@ const button = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 // ######VERSION-1########
-// const colors = ["#FA3890", "#01EF97", "#A711EA",'#89BAC6','#ECE8E8','#9669D9','#A27094','#DC8BE0', "#10F5D0", "#BA8E97", "#F587E4"];
+//  const colors = ["#FA3890", "#01EF97", "#A711EA",'#89BAC6','#ECE8E8','#9669D9','#A27094','#DC8BE0', "#10F5D0", "#BA8E97", "#F587E4"];
 // button.addEventListener("click", () => {
 //   let hexColor = colors[getRandomNumber()];
 //   document.body.style.backgroundColor = hexColor;
