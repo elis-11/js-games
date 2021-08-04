@@ -5,4 +5,11 @@ document.addEventListener("keydown", function (event) {
   jump();
 });
 
-const jump = () => {};
+jump = () => {
+  if (dino.classList != "jump") {
+    dino.classlist.add("jump");
+  }
+  setTimeout(function () {
+    dino.classList.remove("jump");
+  }, 300);
+};
