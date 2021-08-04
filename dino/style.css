@@ -6,7 +6,7 @@
   background-color: #f2f2f2;
 }
 #dino {
-  width: 50px;
+  width: 60px;
   height: 50px;
   background-image: url(img/dino.png);
   background-size: 50px 50px;
@@ -22,4 +22,12 @@
   top: 125px;
   left: 560px;
   animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+  0% {
+    left: 580px;
+  }
+  100%{
+    left: -20px;
+  }
 }
